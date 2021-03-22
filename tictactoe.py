@@ -8,10 +8,10 @@ board = ['-', '-', '-',
 
 game_still_going = True
 
-# who won? Or tie?
+
 winner = None
 
-#whos turn is it 
+
 current_player = "X"
 
 #----------FUNCTIONS----------
@@ -37,7 +37,7 @@ def play_game():
     elif winner == None:
         print("Tie.")
         
-    #handles a turn
+    
 def handle_turn(player):
     print(player + "'s turn.")
     position = input("Choose a position from 1-9 (numbered horizontally): ")
